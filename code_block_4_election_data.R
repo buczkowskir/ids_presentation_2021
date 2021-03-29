@@ -95,7 +95,3 @@ complete_data %>%
 
 # Putting Plots together
 cowplot::plot_grid(box1, box2, box3, box4)
-
-
-
-

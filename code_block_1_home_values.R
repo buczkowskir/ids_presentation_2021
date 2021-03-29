@@ -10,7 +10,7 @@
 
 
 # Loading Libraries
-pacman::p_load('tidyverse', 'scales', 'ggrepel', 'broom', 'rvest')
+pacman::p_load('tidyverse', 'scales', 'ggrepel', 'broom', 'rvest', 'cowplot')
 
 # Importing Data
 read_csv('https://raw.githubusercontent.com/IQSS/workshops/master/R/Rgraphics/dataSets/landdata-states.csv') -> home_values
